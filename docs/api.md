@@ -11,7 +11,7 @@ GraphQL Auth also provides the MeQuery to retrieve data for the currently authen
 ### UserQuery
 
 ```python
-from graphql_auth.schema import UserQuery
+from graphql_auth.queries import UserQuery
 ```
 
 The easiest way to explore it is by using [graphQL](https://docs.graphene-python.org/projects/django/en/latest/tutorial-plain/#creating-graphql-and-graphiql-views).
@@ -150,7 +150,7 @@ Examples:
 ### MeQuery
 
 ```python
-from graphql_auth.schema import MeQuery
+from graphql_auth.queries import MeQuery
 ```
 
 Since this query requires an authenticated user it can be explored by using the [insomnia API client](https://insomnia.rest/).

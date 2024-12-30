@@ -50,7 +50,7 @@ In your schema, add the following:
 
     import graphene
 
-    from graphql_auth.schema import UserQuery, MeQuery
+    from graphql_auth.queries import UserQuery, MeQuery
     from graphql_auth import mutations
 
     class AuthMutation(graphene.ObjectType):
@@ -92,7 +92,7 @@ In your schema, add the following:
 
     import graphene
 
-    from graphql_auth.schema import UserQuery, MeQuery
+    from graphql_auth.queries import UserQuery, MeQuery
     from graphql_auth import relay
 
     class AuthRelayMutation(graphene.ObjectType):
